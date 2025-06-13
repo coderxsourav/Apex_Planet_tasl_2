@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  background-image: url("pexels-joshsorenson-1714205.jpg");
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+}
+
+header {
+  background: #148690b5;
+  color: #000000;
+  padding: 1rem;
+}
+
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background: #483ec275;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.gallery-container img {
+  width: 100px;
+  margin: 5px;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+#taskList li {
+  background: #ddd;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
